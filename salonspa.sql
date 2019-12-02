@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2019 at 03:37 AM
+-- Generation Time: Dec 02, 2019 at 05:24 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -61,11 +61,9 @@ CREATE TABLE `booking` (
 --
 
 INSERT INTO `booking` (`id`, `email`, `package`, `dotravel`, `mode`) VALUES
-(1, 'a1@a1.com', 'BASIC TOUCH', '2019-11-21', 'A'),
 (3, 'a1@a1.com', 'NIRVANA', '2019-11-23', 'NEARBY CENTRE'),
 (4, 'a1@a1.com', 'STYLE LOCKS', '2019-11-20', 'NEARBY CENTRE'),
 (5, 'divij.nagendra@gmail.com', 'BASIC TOUCH', '2019-11-15', 'NEARBY CENTRE'),
-(9, 'ashwinrameshp@gmail.com', 'NIRVANA', '2019-12-08', 'HOME SERVICE'),
 (10, 'ashwinrameshp@gmail.com', 'BASIC TOUCH', '2019-11-29', 'NEARBY CENTRE');
 
 -- --------------------------------------------------------
@@ -90,7 +88,6 @@ INSERT INTO `comments` (`name`, `email`, `mobile`, `comments`) VALUES
 ('Divij N', 'silver97eagle@gmail.com', '+917411115143', 'asdasfasf'),
 ('Rahul', 'rahul786@yahoomail.com', '784156984', 'plss add rating bar to your page'),
 ('Divya', 'divu30997@gmail.com', '1237896540', 'Had a great time booking'),
-('ashwin@', '', '', ''),
 ('Jonny', 'Johnny@gmail.com', '8888999922', 'Awesome Service. ');
 
 -- --------------------------------------------------------
@@ -188,12 +185,10 @@ CREATE TABLE `loginlog` (
 --
 
 INSERT INTO `loginlog` (`Email`, `fname`, `action`, `time`) VALUES
-('silver97eagle@gmail.com', 'Divij', 'DELETED :(', '2018-11-24 14:03:18'),
 ('silver97eagle@gmail.com', 'Divij', 'REGISTERED :)', '2018-11-24 14:03:41'),
 ('a1@a1.com', 'Divij', 'REGISTERED :)', '2019-10-07 07:27:31'),
 ('divij.nagendra@gmail.com', 'Divij', 'REGISTERED :)', '2019-11-10 19:27:49'),
 ('ashwinrameshp@gmail.com', 'Ashwin ', 'REGISTERED :)', '2019-11-13 15:27:03'),
-('ashwin@gmail.com', 'Ashwin', 'DELETED :(', '2019-11-13 15:34:27'),
 ('dave@gmail.com', 'DAVE', 'REGISTERED :)', '2019-11-19 15:14:50');
 
 -- --------------------------------------------------------

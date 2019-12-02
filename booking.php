@@ -126,7 +126,7 @@ alert('Booking failed');
     <div class="container">
       <div class="row">
         <div class="col s12 m4 l2">
-          <img src="img/left.jpg" height="700px" width="300px"/></div>
+          <img src="img/salon.jpg" height="700px" width="300px"/></div>
         <div class="col s12 m4 l8">
           <div class="card-panel pink lighten-5 ">
               <center><h5>SALON BOOKING</h5></center>
